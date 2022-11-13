@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="saldacao">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>511</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ver_pedidos">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>145</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PEDIDOS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2_ver_caixa">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>240</y>
+     <width>145</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAIXA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3_ver_estoque_materiais">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>340</y>
+     <width>145</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ESTOQUE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mensagem_pedidos">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>140</y>
+     <width>251</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Visualizar todos os pedidos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mensagem_caixa">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>240</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fluxo de caixa</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mensagem_materiais">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>340</y>
+     <width>351</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Visualizar estoque de materiais </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mensagem_epis">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>440</y>
+     <width>300</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Visualizar estoque de EPIs</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4_ver_estoque_epis">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>440</y>
+     <width>145</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ESTOQUE EPIs</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
